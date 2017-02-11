@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appbusters.robinpc.evencargo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Even Cargo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ManagerPanelActivity"
+            android:label="@string/title_activity_manager_panel"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DriverPanelActivity"
+            android:label="@string/title_activity_driver_panel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClientPanelActivity"
+            android:label="@string/title_activity_client_panel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InvitesActivity"
+            android:label="@string/title_activity_invites"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyDriversActivity"
+            android:label="@string/title_activity_my_drivers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyClientsActivity"
+            android:label="@string/title_activity_my_clients"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyManagersActivity"
+            android:label="@string/title_activity_my_managers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>
